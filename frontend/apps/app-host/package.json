@@ -1,0 +1,13 @@
+{
+  "name": "app-host",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.ts --color --bail",
+    "serve": "webpack serve --config webpack.config.ts --color --env production=false"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
+  }
+}

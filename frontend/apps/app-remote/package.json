@@ -1,0 +1,10 @@
+{
+  "name": "app-remote",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.ts --color --bail",
+    "serve": "webpack serve --config webpack.config.ts --color --env production=false"
+  }
+}
